@@ -4,21 +4,21 @@ public class Pemilihan2Percobaan209 {
     public static void main(String[] args) {
         Scanner input09 = new Scanner(System.in);
 
-        System.out.println("______________________________________");
-        System.out.println("=========== MENU KAFE JTI ============");
-        System.out.println("______________________________________");
+        System.out.println("________________________________________");
+        System.out.println("============ MENU KAFE JTI =============");
+        System.out.println("________________________________________");
         System.out.println("1. Ricebowl");
         System.out.println("2. ice Tea");
         System.out.println("3. Paket Bunding (Ricebowl + Ice Tea)");
-        System.out.println("______________________________________");
-        System.out.println("masukan angka dari menu yang dipilih =");
+        System.out.println("________________________________________");
+        System.out.print("masukan angka dari menu yang dipilih =");
         int pilihan_menu ;
         pilihan_menu = input09.nextInt();
         input09.nextLine();
         System.out.print("Apakah punya member (y/n)?= ");
         String member;
         member = input09.next();
-        System.out.println("______________________________________");
+        System.out.println("________________________________________");
         int harga;
         double diskon;
 
@@ -64,7 +64,7 @@ public class Pemilihan2Percobaan209 {
 
         }
 
-        System.out.println("______________________________________");
+        System.out.println("________________________________________");
         
     }
 }
